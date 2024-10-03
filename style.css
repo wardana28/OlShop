@@ -1,0 +1,326 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  color: white;
+  background-color: rgb(233, 230, 230);
+}
+
+nav {
+  z-index: 9999;
+  top: 0;
+  right: 0;
+  left: 0;
+  /* background-color: rgb(239, 133, 66); */
+  background-color: black;
+  display: flex;
+  position: fixed;
+}
+
+nav ul {
+  background-color: rgb(59, 59, 59);
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  position: absolute;
+  left: 10px;
+  border-radius: 0px 0px 5px 5px;
+}
+
+nav ul li {
+  /* margin-left: 3rem; */
+  /* margin-top: 10px; */
+  margin: 0.5rem;
+  margin-right: 1rem;
+  right: 10px;
+}
+
+nav .header {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+}
+
+nav .icons {
+  top: 0;
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  /* background-color: rgb(59, 59, 59); */
+}
+
+nav .icons i {
+  padding: 0.5rem;
+}
+
+nav .header .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+nav .header .logo h1 {
+  font-size: 35px;
+  font-weight: 100;
+}
+
+nav .header .logo img {
+  margin-right: 10px;
+}
+
+nav .header input {
+  margin-left: auto;
+  margin-top: 10px;
+  width: 950px;
+  height: 50px;
+  margin-bottom: 30px;
+  position: absolute;
+  right: 20px;
+  border-radius: 10px;
+  border: none;
+  padding-left: 20px;
+}
+
+.search-button {
+  position: relative;
+  margin-left: 990px;
+  margin-top: 23px;
+  right: 35px;
+  color: black;
+  cursor: pointer;
+}
+
+/* section 1 */
+
+.tawaran {
+  color: black;
+  margin: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex: 1;
+  padding-top: 200px;
+}
+
+.tawaran .card-tawaran {
+  background-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.tawaran .card-tawaran .row {
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+}
+
+.material-symbols-outlined {
+  font-size: 70px;
+}
+
+.container-1,
+.container-2,
+.container-3 {
+  background-color: white;
+  color: black;
+  margin: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.container-1 h3 {
+  padding: 25px;
+}
+
+.container-1 .contains-kategori {
+  display: flex;
+  /* flex-direction: column; */
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.container-1 .row {
+  width: 135px;
+  height: 135px;
+  margin: 10px;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  /* border: 1px solid rgb(94, 93, 93); */
+}
+
+.container-1 .row img {
+  padding: 5px;
+}
+
+.container-2 .contains-diskon {
+  display: flex;
+}
+
+.container-2 .contains-diskon .container-produk {
+  flex-direction: row;
+  display: flex;
+}
+
+.container-2 .contains-diskon .text {
+  width: 200px;
+  height: 430px;
+  text-align: center;
+  border-radius: 10px 0px 0px 10px;
+  background-color: rgb(236, 198, 3);
+}
+
+.container-2 .contains-diskon .text h1 {
+  margin-top: 25%;
+}
+
+.container-2 .row img,
+.container-3 .row img {
+  width: 200px;
+  height: 200px;
+}
+
+.container-2 .contains-diskon .row {
+  width: 200px;
+  height: 380px;
+  border: 0.8px solid rgb(157, 157, 157);
+  margin: 15px;
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 3px 4px 8px -1px rgba(98, 92, 92, 0.54);
+  -webkit-box-shadow: 3px 4px 8px -1px rgba(98, 92, 92, 0.54);
+  -moz-box-shadow: 3px 4px 8px -1px rgba(98, 92, 92, 0.54);
+}
+
+.container-3 .contains-rekomendasi .row {
+  width: 200px;
+  height: 380px;
+  margin: 15px;
+  border: 0.8px solid rgb(157, 157, 157);
+
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 3px 4px 8px -1px rgba(98, 92, 92, 0.54);
+  -webkit-box-shadow: 3px 4px 8px -1px rgba(98, 92, 92, 0.54);
+  -moz-box-shadow: 3px 4px 8px -1px rgba(98, 92, 92, 0.54);
+}
+
+.container-2 .contains-diskon .row p,
+.container-3 .contains-rekomendasi p {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.container-3 h1 {
+  text-align: center;
+  padding: 20px;
+}
+
+.container-3 .contains-rekomendasi {
+  margin-top: 25px;
+  display: flex;
+  /* flex-direction: ; */
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  nav .header input {
+    width: 450px;
+    height: 50px;
+    display: none;
+  }
+
+  .search-button {
+    margin-left: 200px;
+    margin-top: 20px;
+    color: white;
+  }
+
+  .tawaran {
+    padding-top: 150px;
+    padding-bottom: 10px;
+    font-size: 10px;
+  }
+
+  .material-symbols-outlined {
+    font-size: 25px;
+  }
+
+  .tawaran .card-tawaran .row {
+    justify-content: space-evenly;
+    flex-direction: column;
+    display: flex;
+    padding: 2px;
+    width: 60px;
+    height: 60px;
+  }
+
+  .container-1 .contains-kategori {
+    flex-wrap: nowrap;
+  }
+
+  .container-1,
+  .container-2,
+  .container-3 {
+    margin: 15px;
+    overflow: auto;
+  }
+
+  .container-2 .contains-diskon .text {
+    position: static;
+    width: 450px;
+    height: 180px;
+    /* z-index: 9999; */
+  }
+
+  .container-2 .row img {
+    width: 150px;
+    height: 150px;
+  }
+  .container-3 .row img {
+    width: 190px;
+    height: 190px;
+  }
+
+  .container-2 .contains-diskon {
+    flex-wrap: wrap;
+  }
+
+  .container-2 .contains-diskon .text h1 {
+    margin-top: 15px;
+  }
+  .container-2 .contains-diskon .row {
+    /* overflow: auto; */
+    width: 150px;
+    height: 280px;
+    margin: 5px;
+  }
+
+  .container-3 .contains-rekomendasi .row {
+    width: 190px;
+    height: 340px;
+    margin: 5px;
+    flex-direction: row;
+    margin-top: 25px;
+  }
+
+  .container-2 .contains-diskon .row p {
+    font-size: 12px;
+  }
+  .container-3 .contains-rekomendasi p {
+    font-size: 15px;
+  }
+}
