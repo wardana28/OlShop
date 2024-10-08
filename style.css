@@ -251,8 +251,8 @@ nav .header input {
 
   .tawaran {
     padding-top: 150px;
-    padding-bottom: 10px;
-    font-size: 10px;
+    padding-bottom: 8px;
+    font-size: 8px;
   }
 
   .material-symbols-outlined {
@@ -264,8 +264,8 @@ nav .header input {
     flex-direction: column;
     display: flex;
     padding: 2px;
-    width: 60px;
-    height: 60px;
+    width: 45px;
+    height: 45px;
   }
 
   .container-1 .contains-kategori {
@@ -291,8 +291,8 @@ nav .header input {
     height: 150px;
   }
   .container-3 .row img {
-    width: 190px;
-    height: 190px;
+    width: 180px;
+    height: 180px;
   }
 
   .container-2 .contains-diskon {
@@ -310,8 +310,8 @@ nav .header input {
   }
 
   .container-3 .contains-rekomendasi .row {
-    width: 190px;
-    height: 340px;
+    width: 180px;
+    height: 335px;
     margin: 5px;
     flex-direction: row;
     margin-top: 25px;
