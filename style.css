@@ -286,13 +286,10 @@ nav .header input {
     /* z-index: 9999; */
   }
 
-  .container-2 .row img {
+  .container-2 .row img,
+  .container-3 .row img {
     width: 150px;
     height: 150px;
-  }
-  .container-3 .row img {
-    width: 180px;
-    height: 180px;
   }
 
   .container-2 .contains-diskon {
@@ -310,8 +307,8 @@ nav .header input {
   }
 
   .container-3 .contains-rekomendasi .row {
-    width: 180px;
-    height: 335px;
+    width: 150px;
+    height: 280px;
     margin: 5px;
     flex-direction: row;
     margin-top: 25px;
@@ -321,6 +318,6 @@ nav .header input {
     font-size: 12px;
   }
   .container-3 .contains-rekomendasi p {
-    font-size: 15px;
+    font-size: 12px;
   }
 }
